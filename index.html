@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function ampliar(x) {
+          x.style.height = "640px";
+          x.style.width = "640px";
+        }
+        
+        function normal(x) {
+          x.style.height = "320px";
+          x.style.width = "320px";
+        }
+
+
+        function mudarCor(x) {
+          x.style.color = "red";
+         
+        }
+        
+        function manterCor(x) {
+            x.style.color = "black";
+        }
+
+
+function alerta()
+{
+   alert('Esse é o petter parck');
+}
+
+function alerta2()
+{
+   alert('Esse é o homem aranha');
+}
+
+
+
+        </script>
+</head>
+<body>
+
+<img src="img/0.jpg" onmouseover="ampliar(this)" onmouseout="normal(this)" border="0"  alt="" width="320" height="320">
+
+
+
+<h1 onmouseover="mudarCor(this)" onmouseout="manterCor(this)" >titulo1</h1>
+
+<img src="img/1.jpg" ondblclick="alerta2()"> 
+
+
+
+</body>
+</html>
